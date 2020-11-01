@@ -45,4 +45,9 @@ public class TestDataBuild {
 	public void updatePlace() {
 		System.out.println("update place");		
 	}
+	
+	public void AddONPlace() {
+		System.out.println("add on place");		
+	}
+
 }
