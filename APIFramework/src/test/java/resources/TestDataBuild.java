@@ -15,7 +15,6 @@ public class TestDataBuild {
 		System.out.println("Hello3");
 		System.out.println("Hello4");
 		
-		
 		AddPlace p =new AddPlace();
 		
 		p.setAccuracy(50);
@@ -41,5 +40,9 @@ public class TestDataBuild {
 	public String deletePlacePayLoad(String placeId) {
 		return "{\r\n\"place_id\":\"" + placeId + "\"\r\n}";
 		
+	}
+	
+	public void updatePlace() {
+		System.out.println("update place");		
 	}
 }
