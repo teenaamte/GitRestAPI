@@ -22,6 +22,10 @@ public class Utils {
 	
 	public RequestSpecification requestSpecification() throws IOException
 	{
+		System.out.println("Hello1");
+		System.out.println("Hello2");
+		System.out.println("Hello3");
+		
 		if( req == null)
 		{
 			PrintStream log =new PrintStream(new FileOutputStream("logging.txt"));
