@@ -10,6 +10,12 @@ public class TestDataBuild {
 
 	public AddPlace addPlacePayLoad(String name, String language, String address)
 	{
+		System.out.println("Hello1");
+		System.out.println("Hello2");
+		System.out.println("Hello3");
+		System.out.println("Hello4");
+		
+		
 		AddPlace p =new AddPlace();
 		
 		p.setAccuracy(50);

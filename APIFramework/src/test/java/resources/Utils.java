@@ -27,6 +27,11 @@ public class Utils {
 		System.out.println("Hello3");
 		System.out.println("Hello4");
 		
+		System.out.println("Hello1");
+		System.out.println("Hello2");
+		System.out.println("Hello3");
+		System.out.println("Hello4");
+		
 		if( req == null)
 		{
 			PrintStream log =new PrintStream(new FileOutputStream("logging.txt"));
